@@ -20,7 +20,7 @@ def best_first_search(source, target, n):
 
 		for v, c in graph[u]:
 			if visited == False:
-				visited = True
+				visited[0] = True
 				pq.put((c, v))
 	print()
 
